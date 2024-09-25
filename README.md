@@ -1,14 +1,17 @@
-# StopWatch.py
+# Timer for Mac
 
 就是一個計時器
 
-## ---To User-------------------
+## ---To Users---------------------------
 ### 如何使用
-直接下載stopwatch.app，它就是一個可以直接在Mac中跑起來的應用程式了！
-p.s. 點下APP的時候它會先閃退個兩秒才再次出現是正常現象
+直接下載[Timer_v1.zip](https://github.com/slimuCS/timer_public/releases/tag/v1.0)，解壓縮後它就是一個可以直接在Mac中跑起來的應用程式了！
+
+p.s. 
+1. 因為是網路上下載下來的東西，蘋果的安全意識很強，會擋，所以第一次打開始不能直接雙擊，而是要右鍵單擊後，在彈出窗口中，選擇 打開 來確認你信任這個應用程式。
+2. 點下APP的時候它會先閃退個兩秒才再次出現是正常現象
 
 ### 按鈕簡介
-<img src="./Timer_develop/interface.png" alt="替代文字" width="300" />
+<img src="./Timer_develop/interface.png" alt="程式介面" width="300" />
 
 - S=Start
 - P=Pause
@@ -18,7 +21,7 @@ p.s. 點下APP的時候它會先閃退個兩秒才再次出現是正常現象
 - o=unpin
 
 
-## ---To Developer--------------
+## ---To Developers----------------------
 
 ### 目前概述
 基本功能能實現，不過還有一些可優化和改進的，以及可加一些feature。
@@ -30,11 +33,11 @@ BTW 我現在Timer跟stopwatch這兩個名詞是混用的
 1. 確認已安裝 [Python3](https://www.python.org/downloads/)
 2. 克隆這個倉庫：
    ```bash
-   git clone https://github.com/username/repository.git
+   git clone https://github.com/slimuCS/timer_public.git
    ```
 3. 進入專案目錄：
    ```bash
-   cd repository
+   cd timer_public/Timer_develop
    ```
 4. 創建並啟動虛擬環境：
    ```bash
