@@ -19,6 +19,10 @@ p.s.
 - SC=Swich to Count 正計時
 - x=pin on top
 - o=unpin
+- 字體
+   對了，不太確定字體是不是需要另外下載。
+   程式用的是 DSEG7 https://fontsource.org/fonts/dseg7-classic
+   下載後右鍵 用Mac內建的“字體簿”APP將其打開 就安裝好新字體了
 
 
 ## ---To Developers----------------------
@@ -60,11 +64,6 @@ BTW 我現在Timer跟stopwatch這兩個名詞是混用的
     pyinstaller --onefile --windowed --icon=icon.icns stopwatch.py
     # 如果想改icon也行，生一張png出來再丟到網路上convert程.icns
     ```
-
-- 字體
-   對了，不太確定字體是不是需要另外下載。
-   程式用的是 DSEG7 https://fontsource.org/fonts/dseg7-classic
-   下載後用Mac內建“字體簿”APP將其打開
 
 ### 貢獻
 
