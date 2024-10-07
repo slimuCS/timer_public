@@ -13,12 +13,12 @@ from PyQt5.QtGui import QFont, QFontDatabase
 DIGITAL_FONT_FAMILY = 'DSEG7 Classic'  # Update with the exact font family name
 
 # Colors
-BACKGROUND_COLOR = '#000000'       # Black background
-TEXT_COLOR = '#D3D3D3'             # Gray-white text
-BUTTON_COLOR = '#2DA042'           # Light green buttons
-BUTTON_HOVER_COLOR = '#1F7A31'     # Darker green on hover
-BUTTON_PRESSED_COLOR = '#14521F'   # Even darker green on press
-COUNTDOWN_FINISH_COLOR = '#37373D' # Background color when countdown finishes
+BACKGROUND_COLOR = '#FAFAFA'       # White background
+TEXT_COLOR = '#5D5B5C'             # Black text
+BUTTON_COLOR = '#F0CBDD'           # Light pink buttons
+BUTTON_HOVER_COLOR = '#D5A5BC'     # Darker pink on hover
+BUTTON_PRESSED_COLOR = '#896778'   # Even darker pink on press
+COUNTDOWN_FINISH_COLOR = '#FAFAFA' # Background color when countdown finishes
 
 class Stopwatch(QWidget):
     def __init__(self):
@@ -56,9 +56,13 @@ class Stopwatch(QWidget):
 
         # Create buttons
         self.start_pause_button = QPushButton('S', self)
+        self.start_pause_button.setStyleSheet("color:#5D5B5C;")
         self.reset_button = QPushButton('Re', self)
+        self.reset_button.setStyleSheet("color:#5D5B5C;")
         self.mode_button = QPushButton('SCD', self)
+        self.mode_button.setStyleSheet("color:#5D5B5C;")
         self.pin_button = QPushButton('x', self)
+        self.pin_button.setStyleSheet("color:#5D5B5C;")
         self.pin_button.setCheckable(True)
         self.pin_button.clicked.connect(self.toggle_pin)
 
