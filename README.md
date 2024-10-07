@@ -9,6 +9,10 @@
 p.s. 
 1. 因為是網路上下載下來的東西，蘋果的安全意識很強，會擋，所以第一次打開始不能直接雙擊，而是要右鍵單擊後，在彈出窗口中，選擇 打開 來確認你信任這個應用程式。
 2. 點下APP的時候它會先閃退個兩秒才再次出現是正常現象
+3. 安裝字體：
+   不太確定字體是不是需要另外下載(應該是要)。
+   程式用的是 DSEG7 https://fontsource.org/fonts/dseg7-classic 。
+   下載後右鍵 用Mac內建的“字體簿”APP將其打開 就安裝好新字體了
 
 ### 按鈕簡介
 <img src="./Timer_develop/interface.png" alt="程式介面" width="300" />
@@ -19,10 +23,6 @@ p.s.
 - SC=Swich to Count 正計時
 - x=pin on top
 - o=unpin
-- 字體
-   對了，不太確定字體是不是需要另外下載。
-   程式用的是 DSEG7 https://fontsource.org/fonts/dseg7-classic
-   下載後右鍵 用Mac內建的“字體簿”APP將其打開 就安裝好新字體了
 
 
 ## ---To Developers----------------------
